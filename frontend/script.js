@@ -24,7 +24,7 @@ async function displayOutput() {
             alert(`Error: ${response.statusText}`);
         }
     } catch (error) {
-        console.error('Error:', error);
+        console.log('Error:', error);
         alert(`Error: ${error.message}`);
     } finally {
         // Hide the loading indicator
